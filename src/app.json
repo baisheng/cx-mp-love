@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/love",
+    "pages/discover",
+    "pages/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#FF5",
+    "backgroundColorTop": "#FF5",
+    "navigationBarBackgroundColor": "FF5",
+    "navigationBarTitleText": "采撷最爱",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#ACB3BA",
+    "selectedColor": "#344A5E",
+    "backgroundColor": "#FFF",
+    "borderStyle": "",
+    "list": [
+      {
+        "pagePath": "pages/love",
+        "text": "最爱",
+        "iconPath": "static/assets/icons/icon-love.png",
+        "selectedIconPath": "static/assets/icons/icon-love--active.png"
+      },
+      {
+        "pagePath": "pages/discover",
+        "text": "发现",
+        "iconPath": "static/assets/icons/icon-discover.png",
+        "selectedIconPath": "static/assets/icons/icon-discover--active.png"
+      },
+      {
+        "pagePath": "pages/me",
+        "text": "我",
+        "iconPath": "static/assets/icons/icon-me.png",
+        "selectedIconPath": "static/assets/icons/icon-me--active.png"
+      }
+    ]
+  },
+  "subPackages": []
+}

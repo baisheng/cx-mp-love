@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <path id="icon-arrow-right-a" d="M31.9307495,38 C31.8097448,37.9916996 31.7789436,37.9926997 31.6591388,37.9720988 C31.3897282,37.9255967 31.130618,37.8234921 30.902009,37.6734854 C30.7864044,37.597682 30.6855004,37.5094781 30.5846964,37.4153739 L18.584223,25.4148382 C18.5014198,25.3261342 18.4783189,25.3059333 18.404816,25.209029 C18.3223127,25.1002241 18.2510099,24.9829189 18.1923076,24.8595134 C17.9358975,24.3203893 17.9358975,23.6806607 18.1923076,23.1415367 C18.2510099,23.0181312 18.3223127,22.9008259 18.404816,22.7920211 C18.4783189,22.6952168 18.5014198,22.6749158 18.584223,22.5863119 L30.5846964,10.5857762 C30.6733999,10.5029725 30.6937007,10.4797714 30.7905046,10.4063681 C31.0447146,10.2134595 31.3447264,10.0832537 31.6591388,10.0289513 C31.8836477,9.99034957 32.1143568,9.99034957 32.3388656,10.0289513 C32.5183727,10.0599527 32.6934796,10.1155552 32.8579861,10.1937586 C33.4828108,10.4908719 33.9178279,11.1071994 33.9886307,11.7954302 C34.0165318,12.0674423 33.9880307,12.3444547 33.9053274,12.6050663 C33.8364247,12.822176 33.7303205,13.0270851 33.5927151,13.2084932 C33.5192122,13.3053976 33.4961113,13.3255985 33.413308,13.4143024 L22.8270904,24.000575 L33.413308,34.5868476 L33.5065117,34.6866521 C33.5830147,34.7806563 33.6048156,34.8025573 33.6714182,34.9041618 C33.7963231,35.0945703 33.8883268,35.3062797 33.9422289,35.5274896 C33.9853306,35.7044975 34.0041313,35.8873057 33.9979311,36.0693138 C33.9743302,36.7608447 33.5823147,37.4053735 32.9792909,37.7444886 C32.7807831,37.8560936 32.5632745,37.933397 32.3388656,37.9720988 C32.2190609,37.9926997 32.1882597,37.9916996 32.0672549,38 L31.9307495,38 L31.9307495,38 Z"/>
+    <rect id="icon-arrow-right-d" width="48" height="48" rx="8"/>
+    <filter id="icon-arrow-right-c" width="258.3%" height="258.3%" x="-79.2%" y="-75%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0"/>
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="4"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <polygon points="0 0 48 0 48 48 0 48"/>
+    <mask id="icon-arrow-right-b" fill="#fff">
+      <use xlink:href="#icon-arrow-right-a"/>
+    </mask>
+    <g mask="url(#icon-arrow-right-b)">
+      <use fill="#000" filter="url(#icon-arrow-right-c)" xlink:href="#icon-arrow-right-d"/>
+      <use fill="#ADB3BA" xlink:href="#icon-arrow-right-d"/>
+    </g>
+  </g>
+</svg>
